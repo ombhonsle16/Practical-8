@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0B0909"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT SUBJECTS"
+            android:textAllCaps="true"
+            android:textColor="#009688"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Application Development"
+            android:textColor="#009688"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web Based Application Development With PHP"
+            android:textColor="#009688"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/c3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programming with Python"
+            android:textColor="#009688"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Management"
+            android:textColor="#009688"
+            android:textStyle="bold|italic" />
+        <CheckBox
+            android:id="@+id/c5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emerging Trends in Computer Engineering "
+            android:textColor="#009688"
+            android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="select"
+            android:text="CLICK HERE"
+            android:textColor="#FFEB3B"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
